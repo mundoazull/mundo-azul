@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conducta: ¿Está bien o mal?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>¿Está bien o mal?</h1>
+        <div id="juego">
+            <img id="imagenActividad" src="" alt="Actividad">
+            <div class="botones">
+                <button onclick="responder('buena')">
+                    <img src="thumbs-up.png" alt="Pulgar arriba" width="300">
+                </button>
+                <button onclick="responder('mala')">
+                    <img src="thumbs-down.png" alt="Pulgar abajo" width="300">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="sonidoIncorrecto" src="sonidos/incorrecto.mp3"></audio>
+    <audio id="sonidoAplausos" src="sonidos/aplausos.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
